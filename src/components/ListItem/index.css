@@ -1,0 +1,14 @@
+.item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  padding: 4px 8px;
+
+  border: 1px solid #eee;
+  border-bottom: none;
+
+  &:last-child {
+    border-bottom: 1px solid #eee;
+  }
+}
